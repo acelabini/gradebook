@@ -16,7 +16,7 @@ class HomeController extends Controller
     Jane Jones T 88 94 100 82 95 H 84 66 74 98 92 85 100 95 96 42 88
     Jimmy Doe H 73 99 98 83 85 92 100 60 74 98 92 T 84 96 79 91 95
     Suzy Johnson H 65 72 78 80 82 74 76 0 85 75 76 T 74 79 70 83 78
-     * 
+     *
      */
     public function home()
     {
