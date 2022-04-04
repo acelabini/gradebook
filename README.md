@@ -12,7 +12,7 @@ grades are preceded by a ‘T’.
     - HTML
     - Javascript
 - Backend
-    - Laravel (PHP)
+    - Laravel 9 (PHP)
     - MySQL
 
 ### How to run
@@ -31,7 +31,7 @@ To simplify the installation, let's just and serve the files locally instead of 
 2. Create database `reviewbuzz`
 3. Open project directory in the terminal `cd ./gradebook`
 4. Install laravel dependencies, run `composer install`
-5. Copy env file `cp .env .env.example`
+5. Copy env file `cp .env.example .env`
 6. Edit `env` file with the MySQL credentials
 7. Generate the app key, run `php artisan key:generate`
 8. Run migration script `php artisan migrate`
